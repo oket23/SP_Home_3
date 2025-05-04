@@ -347,7 +347,7 @@ public class Program
                     Console.WriteLine("\nEnter valid student id!");
                     break;
                 }
-                Console.Write("\nEnter group id: ");
+                Console.Write("Enter group id: ");
                 if (!int.TryParse(Console.ReadLine(), out int groupId2))
                 {
                     Console.WriteLine("\nEnter valid group id!");
